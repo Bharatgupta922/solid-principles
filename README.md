@@ -88,14 +88,8 @@ Applying SOLID principles leads to:
 
 ---
 
-## 📚 References
-- [SOLID Principles Wikipedia](https://en.wikipedia.org/wiki/SOLID)
-- [JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
----
-
 ## 🧑‍💻 Author
-**Your Name**
+**Bharat Gupta**
 
 ---
 
