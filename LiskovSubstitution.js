@@ -47,10 +47,10 @@ class File {
         }
         const params = {
             key: bucketMap[extension],
-            fileName: fileName
+            fileName: `${fileName}.${extension}`
         }
 
-        console.log(`Reading file ${fileName} from bucket ${params.key}`)
+        console.log(`Reading file ${fileName}.${extension} from bucket ${params.key}`)
     }
 }
 
@@ -66,7 +66,7 @@ const main = () => {
     square.printPerimeter()
     
     const textFile = new TextFile()
-    textFile.read('example.txt') 
+    textFile.read('exampleFile') 
 }
 
 main()
